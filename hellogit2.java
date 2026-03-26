@@ -1,3 +1,1 @@
-public class login {
-    println("New Hello git2!!")
-}
+println("New Hello git2!!")

@@ -1,3 +1,2 @@
-public class login {
-    println("login v2")
-}
+println("login v2")
+
