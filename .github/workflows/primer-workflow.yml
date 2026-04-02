@@ -1,3 +1,9 @@
-it add .
-git commit -m "Mi primer workflow de prueba"
-git push origin pruebasActions
+name: Mi Primera Action
+on: [push]
+
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Paso de saludo
+        run: echo "¡Hola Vicente! El flujo funciona perfecto."
